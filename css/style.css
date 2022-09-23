@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Regular.woff2) format("woff2"), url(../fonts/Lato-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Bold.woff2) format("woff2"), url(../fonts/Lato-Bold.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Black.woff2) format("woff2"), url(../fonts/Lato-Black.woff) format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 400;
+	background: url("../img/photo_20.jpg") 0 0 / cover fixed;
+}
+
+[class*="__container"] {
+   max-width: 810px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-bottom: 40px;
+}
+
+.header__container {
+	background: url("../img/photo_20.jpg") 0 0 / cover;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1E212C;
+}
+
+.image {
+	margin-bottom: 60px;
+}
+
+img {
+	border-radius: 4px;
+	max-width: 100%;
+}
+
+.text-one {
+	margin-bottom: 24px;
+}
+
+.text-one__container {
+	font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #bfc4d3;
+	background: url("../img/image.jpg");
+}
+
+.text-two {
+	margin-bottom: 48px;
+}
+
+.text-two__container p {
+	font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+	background: pink;
+}
+
+.text {
+	padding-bottom: 30px;
+}
+
+.text-three {
+	margin-bottom: 48px;
+}
+
+.text-three__container {
+	font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #01020b;
+	padding-left: 58px;
+	background: url("../img/volonter.jpg") center;
+}
+
+.text-four {
+	margin-bottom: 24px;
+}
+
+.text-four__container {
+	font-size: 16px;
+   line-height: 1.6;
+   color: white;
+	background: linear-gradient(to bottom, rgba(255,168,76,0.24) 0%,rgba(255,123,13,1) 100%);;
+}
+
+.text-five {
+	margin-bottom: 24px;
+}
+
+.text-five__container {
+	padding-left: 25px;
+}
+
+.text-five__container p {
+	font-size: 16px;
+   line-height: 1.6;
+   color: #e5e7f1;
+	margin-bottom: 4px;
+	background: linear-gradient(to bottom, rgba(255,0,132,1) 0%,rgba(255,0,132,0.99) 1%,rgba(255,0,132,0.15) 100%);
+}
+
+.text-six {
+	margin-bottom: 100px;
+}
+
+.text-six__container {
+	font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+	background: url("../img/photo.jpg");
+}
